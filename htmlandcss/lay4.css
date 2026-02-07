@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main-box{
+    width: 600px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main-box .box{
+    width: 100%;
+    height: 100%;
+}

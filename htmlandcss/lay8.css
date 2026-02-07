@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 10px;
+    /* grid-template-rows: 200px 100px 100px 100px; */
+    /* repeat (min,max) */
+    grid-template-columns: repeat(auto-fill ,minmax(200px, 1fr));
+}
+.box{
+    background-color: rgb(77, 63, 63);
+    color: white;
+    font-size: 22px;
+}
